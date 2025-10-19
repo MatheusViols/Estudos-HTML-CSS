@@ -42,8 +42,49 @@
 
 			<main>
 				<div id="content">
-					<div id="banner">
-						<img  src="Imagens/pizza_banner.png" alt="banner de promoção" />
+					<div>
+						<br></br>
+						<h2 id="titulo-cardapio"> De casa! </h2>
+					</div>
+
+					<div id="cardapio">
+						<div id="faixa-pizzas"> 
+							<div class="pizzas">
+								<h2 class="titulos-corpo"> Frango </h2>
+								<img src="Imagens/Pizzas/frango.jpg" alt="pizza frango" />
+								<ul class="descricao">
+									<li> Queijo </li>
+									<li> Frango </li>
+									<li> Catupiry </li>
+									<li> Azeitona </li>
+								</ul>
+							</div>
+							<div class="pizzas">
+								<h2 class="titulos-corpo"> Calabresa </h2>
+								<img src="Imagens/Pizzas/calabresa.jpg" alt="pizza calabresa" />
+								<ul class="descricao">
+									<li> Queijo </li>
+									<li> Cebola </li>
+									<li> Calabresa </li>
+									<li> Azeite </li>
+								</ul>
+							</div>
+							<div class="pizzas">
+								<h2 class="titulos-corpo"> Mussarela </h2>
+								<img src="Imagens/Pizzas/mussarela.jpg" alt="pizza mussarela" />
+								<ul class="descricao">
+									<li> Queijo </li>
+									<li> Tomate </li>
+									<li> Azeitona </li>
+									<li> Manjericão </li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+					<div id="faixa-pedido">
+						<button id="bt-pedido"> Fazer pedido </button>
 					</div>
 
 				</div>
@@ -51,9 +92,11 @@
 
 			<footer>
 				<div id="foot">
+					<p id="copyright"> &copy; Todos os direitos reservados a FRED GONÇALVES PINTO </p>
 
 				</div>
 			</footer>
+
 		</div>
 
 
